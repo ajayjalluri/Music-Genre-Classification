@@ -9,7 +9,7 @@ For train CNN model of deep learning:
 
 ** In the case of the VGG, the channel need to have 3 channels
 ## Dataset
-DATA : GTZAN Genre Collection
+DATA : GTZAN Genre Collection<br>
 The genres I am classifying are:
 1. blues<br>
 2. classical<br>
