@@ -15,7 +15,7 @@ Classes: blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, roc
 ## Data preprocessing
 Before training the classification model, we have to tranform raw data from audio samples into more meaningful representations. [Librosa](https://github.com/librosa/librosa) has several methods for extracting various useful audio features: STFT (Short-Time Fourier Transform), Mel-spectrogram, MFCC (Mel-frequency cepstral coefficients), CQT (Constant-Q Transform), Harmonic-Percussive spectrogram, Chromagram .<br>
 Having a big data set isn't enough, in oppose to image tasks I cannot work straight on the raw sound sample, a quick calculation: 30 seconds × 22050 sample/sec- ond = 661500 length of vector, which would be heavy load for a convention machine learning method.
-Following all the papers I read and researching a little on acoustic analysis, It is quit obvious that the industry is using Mel-spectrogram as the feature vector for the sound sample, I used librosa[9] implementation.
+Following all the papers I read and researching a little on acoustic analysis, It is quit obvious that the industry is using Mel-spectrogram as the feature vector for the sound sample, I used librosa implementation.
 <p align="center">
 <img src= https://github.com/ajayjalluri/Music-Genre-Classification/blob/master/imgs/1.PNG?raw=true>
 </p>
