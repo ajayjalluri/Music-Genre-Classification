@@ -21,7 +21,12 @@ Following all the papers I read and researching a little on acoustic analysis, I
 </p>
 
 ## Transfer Learning
-I used the pretrained model of VGG16 as feature extractors using Google Colab GPU. <br>
-VGG16 has the accuracy of 75.6% <br>
+I used the pretrained model of VGG16 as feature extractors using Google Colab GPU. 
+## Model Summary
+<p align="center">
+<img src= https://github.com/ajayjalluri/Music-Genre-Classification/blob/master/imgs/1.PNG?raw=true>
+</p>
+
+
 
 
