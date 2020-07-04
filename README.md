@@ -24,7 +24,7 @@ Following all the papers I read and researching a little on acoustic analysis, I
 I used the pretrained model of VGG16 as feature extractors using Google Colab GPU. 
 ## Model Summary
 <p align="center">
-<img src= https://github.com/ajayjalluri/Music-Genre-Classification/blob/master/imgs/1.PNG?raw=true>
+<img src= https://github.com/ajayjalluri/Music-Genre-Classification/blob/master/imgs/Model%20Summary.PNG?raw=true>
 </p>
 
 
