@@ -28,8 +28,8 @@ I used the pretrained model of VGG16 as feature extractors using Google Colab GP
 </p>
 
 ## HElPFULL RESOURCES
-**https://towardsdatascience.com/step-by-step-guide-to-using-pretrained-models-in-keras-c9097b647b29
-**https://towardsdatascience.com/transfer-learning-from-pre-trained-models-f2393f124751
+https://towardsdatascience.com/step-by-step-guide-to-using-pretrained-models-in-keras-c9097b647b29
+https://towardsdatascience.com/transfer-learning-from-pre-trained-models-f2393f124751
 
 
 
