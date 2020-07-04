@@ -8,9 +8,22 @@ For train CNN model of deep learning:
 3. Train the CNN and validate using the validation dataset
 
 ** In the case of the VGG, the channel need to have 3 channels
+## Dataset
+The genres I am classifying are:
+1. blues<br>
+2. classical<br>
+3. country<br>
+4. disco <br>
+5. hiphop<br>
+6. jazz<br>
+7. metal<br>
+8. pop<br>
+9. reggae<br>
+10.rock<br>
 ## Data preprocessing
-
-Before training the classification model, we have to tranform raw data from audio samples into more meaningful representations. [Librosa](https://github.com/librosa/librosa) has several methods for extracting various useful audio features: STFT (Short-Time Fourier Transform), Mel-spectrogram, MFCC (Mel-frequency cepstral coefficients), CQT (Constant-Q Transform), Harmonic-Percussive spectrogram, Chromagram . 
+Before training the classification model, we have to tranform raw data from audio samples into more meaningful representations. [Librosa](https://github.com/librosa/librosa) has several methods for extracting various useful audio features: STFT (Short-Time Fourier Transform), Mel-spectrogram, MFCC (Mel-frequency cepstral coefficients), CQT (Constant-Q Transform), Harmonic-Percussive spectrogram, Chromagram .
+Having a big data set isn't enough, in oppose to image tasks I cannot work straight on the raw sound sample, a quick calculation: 30 seconds × 22050 sample/sec- ond = 661500 length of vector, which would be heavy load for a convention machine learning method.
+Following all the papers I read and researching a little on acoustic analysis, It is quit obvious that the industry is using Mel-spectrogram as the feature vector for the sound sample, I used librosa[9] implementation.
 ## Representing Music as Image
 A very naive idea of mine was to simply plot the y values as shown below. <br>
 <img src="imgs/index.png"> <br>
