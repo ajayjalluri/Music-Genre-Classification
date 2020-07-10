@@ -20,8 +20,8 @@ Following all the papers I read and researching a little on acoustic analysis, I
 <img src= https://github.com/ajayjalluri/Music-Genre-Classification/blob/master/imgs/1.PNG?raw=true>
 </p>
 
-## Transfer Learning
-I used the pretrained model of VGG16 as feature extractors using Google Colab GPU. 
+## Transfer Learning (Feature Extraction)
+I used pre-trained VGG-16(16-layers Convolutional Neural Network) CNN model in order to extract features from the spectrogram images  
 ## Model Summary
 <p align="center">
 <img src= https://github.com/ajayjalluri/Music-Genre-Classification/blob/master/imgs/Model%20Summary.PNG?raw=true>
